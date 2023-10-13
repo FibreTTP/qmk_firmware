@@ -20,7 +20,7 @@
 
 // https://www.reddit.com/r/glorious/comments/qj373e/some_quick_tips_for_qmk_newcomers
 #define USB_POLLING_INTERVAL_MS 1
-#define DEBOUNCE 8
+#define DEBOUNCE 10
 
 // I like NKRO.. but let's not force it. @drashna pointed out some older hardware has issues - Toggle it via keycode if you like.
 // #define FORCE_NKRO
